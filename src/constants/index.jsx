@@ -17,10 +17,11 @@ import synthetic_data_figures from "../assets/projects/DataScience/synthetic_dat
 
 export const HERO_CONTENT = `Since graduating from the University of Manchester with a degree in Physics, I have worked as a developer on a range of machine learning projects using Python and out of my own personal interest I have also been learning SQL as well as front-end web development.`;
 
-export const ABOUT_TEXT = `I'm a naturally curious, adaptable person who has worked independently on projects, within teams and, on occassion, assisted with managing projects as well. I am a quick learner and an excellent communicator too, and have written reports and given presentations aimed at people from all sorts of backgrounds and levels, both technical and non-technical.
-
+export const ABOUT_TEXT = <p>I'm a naturally curious, adaptable person who has worked independently on projects, within teams and, on occassion, assisted with managing projects as well. I am a quick learner and an excellent communicator too, and have written reports and given presentations aimed at people from all sorts of backgrounds and levels, both technical and non-technical.
+<br />
+<br />
 This website has been built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel modifications.
-`;
+</p>;
 
 export const EXPERIENCES = [
   {
