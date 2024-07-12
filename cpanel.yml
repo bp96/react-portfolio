@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/brijpets/public_html/dist
-    - /bin/cp -R * $DEPLOYPATH
-    
