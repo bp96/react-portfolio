@@ -51,7 +51,7 @@ function Projects() {
               </div>
 
               <div>
-                {/* only display View Code button if there's a link present */}
+                {/* only display See Live button if there's a link present */}
                 {project.see_live && <a
                   target="_blank"
                   href={project.see_live}
@@ -68,8 +68,12 @@ function Projects() {
                 >
                   View Code
                 </a>}
+            <hr className="mt-12 w-[65%] m-auto lg:w-0"/>
+
               </div>
+              
             </motion.div>
+            
           </div>
         ))}
       </div>
