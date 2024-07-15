@@ -22,12 +22,12 @@ function Projects() {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
+              <a target='_blank' href={project.image_link? project.image_link : null}><img
                 src={project.image}
-                alt={project.title}
+                alt={project.image_link? `$Click here to enlarge image of ${project.title}` : project.title}
                 className=" rounded w-full "
-              />
-            <p className="text-xs pb-8 pt-2">{project.image_caption}</p>
+              /></a>
+            <div className="text-sm pb-8 pt-2">{project.image_caption}</div>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ function Projects() {
               <h6 className="mb-2 font-semibold text-center lg:text-left">
                 {project.title}
               </h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <div className="mb-4 text-neutral-400">{project.description}</div>
               <div className="mb-4 flex flex-wrap gap-1 ">
                 {project.technologies.map((tech, i) => (
                   <span
@@ -55,7 +55,7 @@ function Projects() {
                 {project.see_live && <a
                   target="_blank"
                   href={project.see_live}
-                  class="bg-neutral-700 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2"
+                  className="bg-neutral-700 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2"
                 >
                   See Live
                 </a>}
@@ -64,7 +64,7 @@ function Projects() {
                 {project.view_code && <a
                   target="_blank"
                   href={project.view_code}
-                  class="bg-neutral-800 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2"
+                  className="bg-neutral-800 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2"
                 >
                   View Code
                 </a>}

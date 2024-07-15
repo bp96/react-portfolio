@@ -33,14 +33,23 @@ export const Hero = () => {
             >
               Developer
             </motion.span>
-            <motion.p
+            <motion.div
               variants={heroVariants(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl font-light tracking-tighter"
+              className="my-2 max-w-xl font-light tracking-tighter pb-4"
             >
               {HERO_CONTENT}
-            </motion.p>
+              <div className="mt-4">
+                <a
+                  target="_blank"
+                  href="https://brijeshpatel.co.uk/uploaded_files/CV-Brijesh%20Patel.pdf"
+                  className="bg-neutral-700 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2 border-2"
+                >
+                  Download CV
+                </a>
+              </div>
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

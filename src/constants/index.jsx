@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import streaming_clone from "../assets/projects/react/streaming-clone.jpg"
 import chat_app from "../assets/projects/react/chat-app.png"
 import restaurant_finder from "../assets/projects/react/restaurant-finder.png"
@@ -15,13 +14,13 @@ import todo_list from "../assets/projects/vanilla/todo-list.jpg";
 import cervical_cancer_tumours from "../assets/projects/DataScience/cervicalcancercontours.gif";
 import synthetic_data_figures from "../assets/projects/DataScience/synthetic_data_figures.jpeg";
 
-export const HERO_CONTENT = `Since graduating from the University of Manchester with a degree in Physics, I have worked as a developer on a range of machine learning projects using Python and out of my own personal interest I have also been learning SQL as well as front-end web development.`;
+export const HERO_CONTENT = `After graduating from the University of Manchester in 2019 with a degree in Physics, I have gained experience as a developer on various projects. These projects include deep learning using Python, working with Azure DevOps and SQL, and front-end web development utilising technologies like ReactJS and Tailwind CSS.`;
 
-export const ABOUT_TEXT = <p>I'm a naturally curious, adaptable person who has worked independently on projects, within teams and, on occassion, assisted with managing projects as well. I am a quick learner and an excellent communicator too, and have written reports and given presentations aimed at people from all sorts of backgrounds and levels, both technical and non-technical.
+export const ABOUT_TEXT = <>I am a curious, adaptable individual with experience working independently, in teams, and managing projects. I am a quick learner, eager to adapt to new technologies, and a skilled communicator capable of writing reports and giving presentations to diverse audiences, both technical and non-technical.
 <br />
 <br />
 This website has been built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel modifications.
-</p>;
+</>;
 
 export const EXPERIENCES = [
   {
@@ -136,7 +135,7 @@ export const PROJECTS = [
     title: "Streaming Clone",
     image: streaming_clone,
     description: (
-      <div>
+      <>
         <p>
         A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.
         </p>
@@ -147,7 +146,7 @@ export const PROJECTS = [
           <li>
           </li>
         </ul> */}
-      </div>
+      </>
     ),
     technologies: ["React", "HTML", "CSS", "JavaScript", "Tailwind CSS", "Firebase", "Movie DB API"],
     see_live: "https://streaming-clone-bp96.netlify.app/",
@@ -157,7 +156,7 @@ export const PROJECTS = [
     title: "Chat App",
     image: chat_app,
     description: (
-      <div>
+      <>
         <p>
         A chat application (similar to something like Teams) built using React, Tailwind CSS and Firebase (Authentication/Database/Storage).
         </p>
@@ -168,7 +167,7 @@ export const PROJECTS = [
           <li>
           </li>
         </ul> */}
-      </div>
+      </>
     ),
     technologies: ["React", "HTML", "CSS", "JavaScript", "Tailwind CSS", "Firebase"],
     see_live: "https://main--chat-app-bp96.netlify.app/",
@@ -178,7 +177,7 @@ export const PROJECTS = [
     title: "Restaurant Finder App",
     image: restaurant_finder,
     description: (
-      <div>
+      <>
         <p>
         Finds restaurants in your area, and filters them by rating and distance to you. Built using HTML/CSS/JS, React/NextJS and uses the Google Maps API. Hosted using Netlify.
         </p>
@@ -189,7 +188,7 @@ export const PROJECTS = [
           <li>
           </li>
         </ul> */}
-      </div>
+      </>
     ),
     technologies: ["React", "HTML", "CSS", "JavaScript", "NextJS", "Google Maps API"],
     see_live: "https://restaurant-finder-bp96.netlify.app/",
@@ -199,11 +198,11 @@ export const PROJECTS = [
     title: "Travel App",
     image: travel_app,
     description: (
-      <div>
+      <>
         <p>
         The homepage of a travel-based search and booking app. Front-end only so far, using React/Vite, and Tailwind CSS.
         </p>
-      </div>
+      </>
     ),
     technologies: ["React", "HTML","CSS","JavaScript","Tailwind CSS"],
     see_live: "https://travel-app-bp96.netlify.app/",
@@ -234,7 +233,7 @@ export const PROJECTS = [
     title: "Markdown Notes Editor",
     image: markdown_editor,
     description: (
-      <div>
+      <>
         <p>
         An editor that generates HTML markup and saves them into notes on local storage. Built using React.
         </p>
@@ -249,7 +248,7 @@ export const PROJECTS = [
 
           </li>
         </ul>
-      </div>
+      </>
     ),
     technologies: ["React", "HTML", "CSS", "JavaScript"],
     see_live: "https://bp96.github.io/markdown-notes-editor/",
@@ -258,11 +257,11 @@ export const PROJECTS = [
     title: "Memes Generator",
     image: memes_generator,
     description: (
-      <div>
+      <>
         <p>
         A small React project to retrieve random memes from an API, and allow you to overlay it with text. Deployed using GitHub Pages.
         </p>
-      </div>
+      </>
     ),
     technologies: ["React","HTML", "CSS", "JavaScript"],
     see_live: "http://bp96.github.io/memes-generator",
@@ -272,7 +271,7 @@ export const PROJECTS = [
     title: "Fictional University Website",
     image: fictional_university_screenshot,
     description: (
-      <div>
+      <>
         <p>
           An interactive Wordpress website built by producing a custom theme for
           a fictional university.
@@ -315,7 +314,7 @@ export const PROJECTS = [
             within the PHP code{" "}
           </li>
         </ul>
-      </div>
+      </>
     ),
 
     technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP"],
@@ -350,7 +349,7 @@ export const PROJECTS = [
     title: "FastFoodOne Website",
     image: fastfoodone,
     description: (
-      <div>
+      <>
         <p>A fast food restaurant website which also has table reservations.</p>
         <ul>
           <li>Created using the Elementor page builder </li>
@@ -359,17 +358,17 @@ export const PROJECTS = [
             create a navigation bar)
           </li>
         </ul>
-      </div>
+      </>
     ),
     technologies: ["WordPress", "Elementor"],
     see_live: "https://brijeshpatel.co.uk/wordpress-sites/fastfoodone/",
     view_code: "",
   },
   {
-    title: "RestauratOne Website",
+    title: "RestaurantOne Website",
     image: restaurantone,
     description: (
-      <div>
+      <>
         <p>
           A restaurant website which allows for table reservations and online
           delivery.
@@ -382,7 +381,7 @@ export const PROJECTS = [
             and online delivery)
           </li>
         </ul>
-      </div>
+      </>
     ),
     technologies: ["WordPress", "Themify"],
     see_live: "https://brijeshpatel.co.uk/wordpress-sites/restaurantone/",
@@ -401,7 +400,11 @@ export const PROJECTS = [
       "Data Science: Cervical cancer tumour segment­ation using deep learning",
     image: cervical_cancer_tumours,
     image_caption:
-      "Top figure and video shows the contours predicted for the GTV regions of a test MRI dataset. The DICE coefficients calculated indicate level of overlap between predictions and actual delineations with a value of 1 indicating maximum overlap. Middle figure shows the GTV (red) and CTV (yellow) delineations used for training. Bottom figure shows the overlap between the predictions (orange) and real (yellow) for the CTV region. ",
+    <ul>
+      <li>Top figure and video shows the contours predicted for the GTV regions of a test MRI dataset. The DICE coefficients calculated indicate level of overlap between predictions and actual delineations with a value of 1 indicating maximum overlap. </li>
+      <li>Middle figure shows the GTV (red) and CTV (yellow) delineations used for training. </li>
+      <li>Bottom figure shows the overlap between the predictions (orange) and real (yellow) for the CTV region.</li>
+      </ul>,
     description: (
       <p>
         This was my Master's project conducted at the University of Manchester
@@ -438,8 +441,13 @@ export const PROJECTS = [
   {
     title: "Data Science: Synthetic data generation, exploration and analysis",
     image: synthetic_data_figures,
+    image_link: "https://brijeshpatel.co.uk/uploaded_files/synthetic_data_figures.jpeg",
     image_caption:
-      "Top figure shows the summary of approach indicating the components and data flow (coloured arrows), as well showing how the synthetically-generated data is evaluated. Middle figure shows the evaluation framework for synthetic data generators, consisting of six indicators. Bottom figure shows a comparison of how original, sensitive data would compare to synthetically-generated data.",
+      <ul>
+        <li>Top figure shows the summary of approach indicating the components and data flow (coloured arrows), as well showing how the synthetically-generated data is evaluated.</li>
+        <li>Middle figure shows the evaluation framework for synthetic data generators, consisting of six indicators.</li>
+       <li>Bottom figure shows a comparison of how original, sensitive data would compare to synthetically-generated data. </li>
+      </ul> ,
     description: (
       <p>
         This project involved reviewing techniques in generating synthetic data,
