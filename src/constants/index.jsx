@@ -399,6 +399,7 @@ export const PROJECTS = [
     title:
       "Data Science: Cervical cancer tumour segment­ation using deep learning",
     image: cervical_cancer_tumours,
+    image_link: "https://brijeshpatel.co.uk/uploaded_files/cervicalcancercontours.gif",
     image_caption:
     <ul>
       <li>Top figure and video shows the contours predicted for the GTV regions of a test MRI dataset. The DICE coefficients calculated indicate level of overlap between predictions and actual delineations with a value of 1 indicating maximum overlap. </li>
