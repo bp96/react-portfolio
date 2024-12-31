@@ -14,9 +14,13 @@ import todo_list from "../assets/projects/vanilla/todo-list.jpg";
 import cervical_cancer_tumours from "../assets/projects/DataScience/cervicalcancercontours.gif";
 import synthetic_data_figures from "../assets/projects/DataScience/synthetic_data_figures.jpeg";
 
-export const HERO_CONTENT = `After graduating from the University of Manchester in 2019 with a degree in Physics, I have gained experience as a developer on various projects. These projects include deep learning using Python, working with Azure DevOps and SQL, and front-end web development utilising technologies like ReactJS and Tailwind CSS.`;
+export const HERO_CONTENT = `Since graduating from the University of Manchester in 2019 with a degree in Physics, I have gained experience as a developer on various projects. These projects include deep learning using Python, working with Azure DevOps and SQL, and front-end web development utilising technologies like ReactJS and Tailwind CSS.`;
 
 export const ABOUT_TEXT = <>I am a curious, adaptable individual with experience working independently, in teams, and managing projects. I am a quick learner, eager to adapt to new technologies, and a skilled communicator capable of writing reports and giving presentations to diverse audiences, both technical and non-technical.
+<br />
+<br />
+I've worked in projects involving HTML/CSS/JavaScript/React, Microsoft Azure, Python and SQL in ETL/FrontEnd Dev/Data Science teams. I've also assisted friends and colleagues by offering website advice and contributing to their construction.
+
 <br />
 <br />
 This website has been built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel modifications.

@@ -16,22 +16,10 @@ function Projects() {
       <div>
         {PROJECTS.map((project, i) => (
           <div key={i} className="mb-8 flex flex-wrap lg:justify-center">
+            
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
-            >
-              <a target='_blank' href={project.image_link? project.image_link : null}><img
-                src={project.image}
-                alt={project.image_link? `$Click here to enlarge image of ${project.title}` : project.title}
-                className=" rounded w-full "
-              /></a>
-            <div className="text-sm pb-8 pt-2">{project.image_caption}</div>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full lg:max-w-xl lg:w-3/4 lg:px-10"
             >
@@ -50,7 +38,7 @@ function Projects() {
                 ))}
               </div>
 
-              <div>
+              <div className="pb-8">
                 {/* only display See Live button if there's a link present */}
                 {project.see_live && <a
                   target="_blank"
@@ -68,12 +56,23 @@ function Projects() {
                 >
                   View Code
                 </a>}
-            <hr className="mt-12 w-[65%] m-auto lg:w-0"/>
-
               </div>
-              
             </motion.div>
-            
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className="w-full lg:w-1/4"
+            >
+              <a target='_blank' href={project.image_link? project.image_link : null}><img
+                src={project.image}
+                alt={project.image_link? `$Click here to enlarge image of ${project.title}` : project.title}
+                className=" rounded w-full "
+              /></a>
+            <div className="text-sm pb-8 pt-2">{project.image_caption}</div>
+            <hr className="w-[65%] m-auto lg:w-0"/>
+
+            </motion.div>
           </div>
         ))}
       </div>
