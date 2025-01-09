@@ -28,9 +28,33 @@ This website has been built using React, Tailwind CSS and Framer Motion and depl
 
 export const EXPERIENCES = [
   {
-    year: "2020 - Present",
+    year: "2024 - Present",
+    role: "Web Developer",
+    company: "BAE Systems Digital Intelligence (London/Remote)",
+    description: (
+      <ul>
+        <li>
+          Worked in a team on an internal project to create a RAG reporting tool to meet customer requirements, focussing on Frontend (React)
+        </li>
+        <li>
+          Attended daily standups, working with Agile, as well as having fortnightly planning sessions/sprints
+        </li>
+        <li>
+          Helped fix GUI bugs/issues, generate new elements and connecting frontend/backend together
+        </li>
+        <li>
+          Currently helping in the recreation of a website built using Wix for a mental health charity assosicated with Network Rail, 
+          involving close collaboration with the founders and implementing features working around the limitations of Wix. 
+          I  helped create initial design using Figma
+        </li>
+      </ul>
+    ),
+    technologies: ["REACT", "HTML", "CSS", "JAVASCRIPT", "GIT", "WIX", "FIGMA"],
+  },
+  {
+    year: "2020 - 2023",
     role: "Data Engineer",
-    company: "BAE Systems Digital Intelligence (London)",
+    company: "BAE Systems Digital Intelligence (London/Remote)",
     description: (
       <ul>
         <li>
@@ -64,7 +88,7 @@ export const EXPERIENCES = [
   {
     year: "2019 - 2020",
     role: "Data Scientist",
-    company: "BAE Systems Digital Intelligence (Chelmsford)",
+    company: "BAE Systems Digital Intelligence (Chelmsford/Remote)",
     description: (
       <ul>
         <li>
