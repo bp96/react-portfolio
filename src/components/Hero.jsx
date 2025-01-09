@@ -43,7 +43,7 @@ export const Hero = () => {
               <div className="mt-4">
                 <a
                   target="_blank"
-                  href="https://brijeshpatel.co.uk/uploaded_files/CV-Brijesh%20Patel.pdf"
+                  href="https://github.com/bp96/react-portfolio/blob/main/public/CV%20-%20Brijesh%20Patel.pdf?raw=true"
                   className="bg-neutral-700 text-purple-200 hover:text-white hover:bg-blue-600 py-2 px-4 rounded-xl mr-2 border-2"
                 >
                   Download CV
