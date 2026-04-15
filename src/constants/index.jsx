@@ -14,16 +14,15 @@ import todo_list from "../assets/projects/vanilla/todo-list.jpg";
 import cervical_cancer_tumours from "../assets/projects/DataScience/cervicalcancercontours.gif";
 import synthetic_data_figures from "../assets/projects/DataScience/synthetic_data_figures.jpeg";
 
-export const HERO_CONTENT = `Since graduating from the University of Manchester in 2019 with a degree in Physics, I have gained experience as a developer on various projects. These projects include deep learning using Python, working with Azure DevOps and SQL, and front-end web development utilising technologies like ReactJS and Tailwind CSS.`;
+export const HERO_CONTENT = `I'm a London-based engineer with experience deliverying data and software solutions in regulated public-sector environements. At BAE Systems Digital Intelligence, I have supported large-scale ETL and live-service work on high-profile projects with the UK government using SQL, Databricks, Scala, Python and Azure. I also have experience with React and modern web technologies`;
 
-export const ABOUT_TEXT = <>I am a curious, adaptable individual with experience working independently, in teams, and managing projects. I am a quick learner, eager to adapt to new technologies, and a skilled communicator capable of writing reports and giving presentations to diverse audiences, both technical and non-technical.
+export const ABOUT_TEXT = <>I'm a curious and adaptable engineer with experience working independently, collaborating across teams, and delivery in fast-paced environments. I'm a strong communicator, comfortable producing technical documentation, supporting users, and presenting to both technical and non-technical audiences.
 <br />
 <br />
-I've worked in projects involving HTML/CSS/JavaScript/React, Microsoft Azure, Python and SQL in ETL/FrontEnd Dev/Data Science teams. I've also assisted friends and colleagues by offering website advice and contributing to their construction.
-
+My background includes data engineer, software development and technical problem-solving across public sector and internal projects. I have worked with SQL, Databricks, Scala, Python and Azure on data-focused work, as well as React/JavaScript on front-end projects. My experience includes ETL pipelines, production support, incident investigation, stakeholder communication, documentation writing and process improvement.
 <br />
 <br />
-This website has been built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel modifications.
+This website was built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel.
 </>;
 
 export const EXPERIENCES = [
@@ -101,7 +100,7 @@ export const EXPERIENCES = [
         </li>
       </ul>
     ),
-    technologies: ["SQL", "SCALA", "DATABRICKS", "AZURE", "GIT", "PYTHON", "REACT", "HTML", "CSS", "JAVASCRIPT", "GIT", "WIX", "FIGMA"],
+    technologies: ["SQL", "SCALA", "DATABRICKS", "AZURE", "GIT", "PYTHON", "REACT", "HTML", "CSS", "JAVASCRIPT"],
   },
   {
     year: "Summer 2018",

@@ -26,9 +26,9 @@ const iconVariants = (duration) => ({
 
 
 function TechStack() {
-  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, FaPython, FaWordpress, TbFileTypeSql, SiAzuredevops, IoLogoFirebase];
-  const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-yellow-500", "text-blue-600", "text-cyan-500", "text-blue-700","text-orange-800"]
-  const iconNames =["HTML","CSS","JS","REACT","PYTHON","WORDPRESS","SQL","MS AZURE", "FIREBASE"]
+  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, FaPython, FaWordpress, TbFileTypeSql, SiAzuredevops];
+  const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-yellow-500", "text-blue-600", "text-cyan-500", "text-blue-700"]
+  const iconNames =["HTML","CSS","JS","REACT","PYTHON","WORDPRESS","SQL","MS AZURE"]
  // Develop this later - turn the above two arrays into an object and then iterate through below 
 //   const iconStackObject = {
 //     RiReactjsLine: "text-cyan-400",

@@ -11,7 +11,7 @@ function Projects() {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Projects
+        Frontend Projects
       </motion.h2>
       <div>
         {PROJECTS.map((project, i) => (
