@@ -29,31 +29,7 @@ This website has been built using React, Tailwind CSS and Framer Motion and depl
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Web Developer",
-    company: "BAE Systems Digital Intelligence (London/Remote)",
-    description: (
-      <ul>
-        <li>
-          Worked in a team on an internal project to create a RAG reporting tool to meet customer requirements, focussing on Frontend (React)
-        </li>
-        <li>
-          Attended daily standups, working with Agile, as well as having fortnightly planning sessions/sprints
-        </li>
-        <li>
-          Helped fix GUI bugs/issues, generate new elements and connecting frontend/backend together
-        </li>
-        <li>
-          Currently helping in the recreation of a website built using Wix for a mental health charity assosicated with Network Rail, 
-          involving close collaboration with the founders and implementing features working around the limitations of Wix. 
-          I  helped create initial design using Figma
-        </li>
-      </ul>
-    ),
-    technologies: ["REACT", "HTML", "CSS", "JAVASCRIPT", "GIT", "WIX", "FIGMA"],
-  },
-  {
-    year: "2020 - 2023",
-    role: "Data Engineer",
+    role: "Data Engineer / Software Developer Developer",
     company: "BAE Systems Digital Intelligence (London/Remote)",
     description: (
       <ul>
@@ -81,17 +57,21 @@ export const EXPERIENCES = [
           managing the weekly newsletter for the company and in organising
           external talks from university lecturers for the team
         </li>
-      </ul>
-    ),
-    technologies: ["SQL", "SCALA", "DATABRICKS", "AZURE", "GIT"],
-  },
-  {
-    year: "2019 - 2020",
-    role: "Data Scientist",
-    company: "BAE Systems Digital Intelligence (Chelmsford/Remote)",
-    description: (
-      <ul>
         <li>
+          Worked in a team on an internal project to create a RAG reporting tool to meet customer requirements, focussing on Frontend (React)
+        </li>
+        <li>
+          Attended daily standups, working with Agile, as well as having fortnightly planning sessions/sprints
+        </li>
+        <li>
+          Helped fix GUI bugs/issues, generate new elements and connecting frontend/backend together
+        </li>
+        <li>
+          Currently helping in the recreation of a website built using Wix for a mental health charity assosicated with Network Rail, 
+          involving close collaboration with the founders and implementing features working around the limitations of Wix. 
+          I  helped create initial design using Figma
+        </li>
+         <li>
           Gained significant experience with Python too (including NumPy,
           Matplotlib, SciPy, pandas packages), Windows and Ubuntu Linux
           operating systems as well as git version control and agile
@@ -121,7 +101,7 @@ export const EXPERIENCES = [
         </li>
       </ul>
     ),
-    technologies: ["PYTHON"],
+    technologies: ["SQL", "SCALA", "DATABRICKS", "AZURE", "GIT", "PYTHON", "REACT", "HTML", "CSS", "JAVASCRIPT", "GIT", "WIX", "FIGMA"],
   },
   {
     year: "Summer 2018",
