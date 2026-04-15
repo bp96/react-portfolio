@@ -14,12 +14,12 @@ import todo_list from "../assets/projects/vanilla/todo-list.jpg";
 import cervical_cancer_tumours from "../assets/projects/DataScience/cervicalcancercontours.gif";
 import synthetic_data_figures from "../assets/projects/DataScience/synthetic_data_figures.jpeg";
 
-export const HERO_CONTENT = `I'm a London-based engineer with experience deliverying data and software solutions in regulated public-sector environements. At BAE Systems Digital Intelligence, I have supported large-scale ETL and live-service work on high-profile projects with the UK government using SQL, Databricks, Scala, Python and Azure. I also have experience with React and modern web technologies`;
+export const HERO_CONTENT = `I'm a London-based engineer with experience delivering data and software solutions in regulated public-sector environments. At BAE Systems Digital Intelligence, I have supported large-scale ETL and live-service work on high-profile projects with the UK government using SQL, Databricks, Scala, Python and Azure. I also have experience with React and modern web technologies`;
 
 export const ABOUT_TEXT = <>I'm a curious and adaptable engineer with experience working independently, collaborating across teams, and delivery in fast-paced environments. I'm a strong communicator, comfortable producing technical documentation, supporting users, and presenting to both technical and non-technical audiences.
 <br />
 <br />
-My background includes data engineer, software development and technical problem-solving across public sector and internal projects. I have worked with SQL, Databricks, Scala, Python and Azure on data-focused work, as well as React/JavaScript on front-end projects. My experience includes ETL pipelines, production support, incident investigation, stakeholder communication, documentation writing and process improvement.
+My background includes data engineering, software development and technical problem-solving across public sector and internal projects. I have worked with SQL, Databricks, Scala, Python and Azure on data-focused work, as well as React/JavaScript on front-end projects. My experience includes ETL pipelines, production support, incident investigation, stakeholder communication, documentation writing and process improvement.
 <br />
 <br />
 This website was built using React, Tailwind CSS and Framer Motion and deployed using Namecheap hosting, Git and cPanel.
