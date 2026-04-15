@@ -29,7 +29,7 @@ This website has been built using React, Tailwind CSS and Framer Motion and depl
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Data Engineer / Software Developer Developer",
+    role: "Data Engineer / Software Developer",
     company: "BAE Systems Digital Intelligence (London/Remote)",
     description: (
       <ul>
@@ -67,7 +67,7 @@ export const EXPERIENCES = [
           Helped fix GUI bugs/issues, generate new elements and connecting frontend/backend together
         </li>
         <li>
-          Currently helping in the recreation of a website built using Wix for a mental health charity assosicated with Network Rail, 
+          Currently helping in the recreation of a website built using Wix for a mental health charity associated with Network Rail, 
           involving close collaboration with the founders and implementing features working around the limitations of Wix. 
           I  helped create initial design using Figma
         </li>
@@ -490,7 +490,7 @@ export const PROJECTS = [
         powered by AI algorithms).
         <br />
         <br />
-        SDV worked with relational tables and from the testing and analysi using
+        SDV worked with relational tables and from the testing and analysis using
         cross-correlation heat maps and histograms, the tool produced mixed
         results since it only seemed to work with Gaussian-distirbuted data.
         This often led to odd results such as negative bank ID values - however,
